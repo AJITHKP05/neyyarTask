@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../../core/constants/appColors.dart';
+import '../../../../core/constants/app_colors.dart';
 
 class LeadingIcon extends StatelessWidget {
   const LeadingIcon({super.key});

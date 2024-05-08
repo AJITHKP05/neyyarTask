@@ -19,7 +19,7 @@ class TitleDropdown extends StatelessWidget {
             }).toList(),
             isDense: true,
             onChanged: (_) {},
-            decoration: InputDecoration(label: Text("Selected")),
+            decoration:const InputDecoration(label: Text("Selected")),
           ),
         );
   }

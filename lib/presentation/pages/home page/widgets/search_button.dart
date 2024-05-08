@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../../../../core/constants/appColors.dart';
+import '../../../../core/constants/app_colors.dart';
 
 class SearchButton extends StatelessWidget {
   const SearchButton({super.key});
@@ -8,12 +7,12 @@ class SearchButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.all(8),
+      padding: const EdgeInsets.all(8),
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(30),
           // shape: BoxShape.circle,
           border: Border.all(color: AppColors.appBlack)),
-      child: Icon(Icons.search),
+      child: const Icon(Icons.search),
     );
   }
 }
