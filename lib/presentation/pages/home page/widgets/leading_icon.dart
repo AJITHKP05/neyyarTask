@@ -3,14 +3,12 @@ import 'package:flutter/material.dart';
 import '../../../../core/constants/app_colors.dart';
 
 class LeadingIcon extends StatelessWidget {
-  const LeadingIcon({super.key});
-
+  const LeadingIcon({super.key, required this.ontap});
+  final VoidCallback ontap;
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: () {
-        // open drawer
-      },
+      onTap: ontap,
       child: Stack(children: [
         Container(
           height: 40,

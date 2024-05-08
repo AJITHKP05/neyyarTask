@@ -2,11 +2,10 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
-import 'package:get/instance_manager.dart';
 import 'package:neyyar_test/core/constants/app_colors.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 
-import '../../../../core/controller/home_controller.dart';
+import '../../core/controller/home_controller.dart';
 
 class BannerWidget extends StatelessWidget {
   BannerWidget({super.key});
