@@ -28,15 +28,18 @@ class HeaderText extends StatelessWidget {
               ),
             ),
             const Spacer(),
-            Container(
-              padding: const EdgeInsets.all(8),
-              decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(30),
-                  // shape: BoxShape.circle,
-                  border: Border.all(color: AppColors.appBlack)),
-              child: Icon(
-                Icons.arrow_forward,
-                size: 15.sp,
+            Tooltip(
+              message: "Go to $title page",
+              child: Container(
+                padding: const EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(30),
+                    // shape: BoxShape.circle,
+                    border: Border.all(color: AppColors.appBlack)),
+                child: Icon(
+                  Icons.arrow_forward,
+                  size: 15.sp,
+                ),
               ),
             )
           ],
